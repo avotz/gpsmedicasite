@@ -651,7 +651,7 @@ textarea {
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-color: #00d5d5;
+  background-color: #3c8dbc;
 }
 .btn:hover,
 .wpcf7-submit:hover {
@@ -675,9 +675,9 @@ textarea {
 }
 .header {
   position: relative;
-  background-color: #00d5d5;
+  background-color: #3c8dbc;
   padding: 0 20px;
-  height: 95px;
+  height: 98px;
   width: 100%;
   border-bottom: 1px solid #d9d9d9;
   border-color: rgba(0,0,0,0.09);
@@ -693,7 +693,7 @@ textarea {
   top: 97px;
   left: 0;
   right: 0;
-  background-color: #01a2a2;
+  background-color: #3c8dbc;
   text-align: center;
 }
 .header-menu li {
@@ -704,6 +704,9 @@ textarea {
   color: rgba(255,255,255,0.9);
   padding: 1rem;
   text-transform: uppercase;
+}
+.header-menu #menu-item-10 a {
+  border: 2px solid #fff;
 }
 .header-btn-menu {
   position: absolute;
@@ -723,9 +726,9 @@ textarea {
     display: block !important;
     float: right;
     position: static;
-    line-height: 80px;
     background-color: transparent;
     text-align: left;
+    margin-top: 1.5rem;
   }
   .header-menu ul {
     display: -webkit-box;
@@ -762,7 +765,7 @@ textarea {
   width: 100%;
   height: 30vh;
   position: relative;
-  background-color: #03e0e0;
+  background-color: #3c8dbc;
 }
 .banner .item {
   -webkit-background-size: cover;
@@ -771,6 +774,18 @@ textarea {
   background-repeat: no-repeat;
   background-position: 50% 70%;
   height: 30vh;
+  width: 100%;
+}
+.banner .item a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 22;
 }
 .banner .item-info {
   position: absolute;
@@ -794,11 +809,13 @@ textarea {
   text-transform: uppercase;
   line-height: 1em;
   position: relative;
+  background-color: rgba(0,0,0,0.5);
 }
 .banner .item-info p {
   font-size: 1rem;
   font-weight: 300;
   font-style: italic;
+  background-color: rgba(0,0,0,0.5);
 }
 .banner img {
   display: block;
@@ -810,21 +827,21 @@ textarea {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 95px;
+  bottom: 10px;
   z-index: 901;
 }
 .banner .owl-dots .owl-dot {
   display: inline-block;
 }
 .banner .owl-dots .owl-dot.active span {
-  background-color: #fff;
+  background-color: #3c8dbc;
 }
 .banner .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
   margin: 5px 7px;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #3c8dbc;
   display: block;
   border-radius: 30px;
 }
@@ -839,7 +856,7 @@ textarea {
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   font-family: 'av' !important;
-  color: #fff;
+  color: #3c8dbc;
   font-size: 3rem;
   z-index: 902;
 }
@@ -945,10 +962,12 @@ textarea {
   justify-content: space-between;
   border-bottom: 1px solid #c3c3c3;
   padding-bottom: 3rem;
+  padding-top: 2rem;
 }
 .features-item {
   width: 100%;
   font-weight: 300;
+  margin-bottom: 2rem;
 }
 .features-item h3 {
   font-weight: 400;

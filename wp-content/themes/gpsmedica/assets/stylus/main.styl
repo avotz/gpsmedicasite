@@ -7,7 +7,7 @@
 verde = #92BF4F
 turquesa = #00d5d5
 azul = #0000e1
-celeste = #25a1e7
+celeste = #3c8dbc
 gris = #777777
 gris2 = #a1a0a0
 naranja = #ff9900
@@ -87,7 +87,7 @@ textarea
 	display inline-block
 	color white
 	transition all .5s ease
-	background-color turquesa
+	background-color celeste
 	
 	&:hover
 		background-color naranja
@@ -108,9 +108,9 @@ textarea
 
 .header
 	position: relative;
-	background-color: #00d5d5
+	background-color: celeste
 	padding: 0 20px;
-	height: 95px;
+	height: 98px;
 	width: 100%;
 	border-bottom: 1px solid #d9d9d9;
 	border-color: rgba(0,0,0,0.09);
@@ -124,7 +124,7 @@ textarea
 		top: 97px;
 		left: 0;
 		right: 0;
-		background-color: #01A2A2;
+		background-color: celeste;
 		text-align center
 		li 
 			display block
@@ -133,6 +133,10 @@ textarea
 			color rgba(white,.9)
 			padding 1rem
 			text-transform uppercase 
+		#menu-item-10
+			a 
+				//background-color #367fa9
+				border 2px solid white
 	&-btn-menu
 		position absolute
 		right 1rem
@@ -153,9 +157,10 @@ textarea
 			display: block !important;
 			float: right;
 			position: static;
-			line-height: 80px;
+			//line-height: 80px;
 			background-color transparent
 			text-align left
+			margin-top 1.5rem
 			ul 
 				display flex
 				flex-wrap wrap 
@@ -173,14 +178,25 @@ textarea
 	width 100%
 	height 30vh
 	position relative
-	background-color #03e0e0
+	background-color celeste
 
 	.item 
 		background-size cover
 		background-repeat no-repeat
 		background-position 50% 70%
 		height 30vh
+		width 100%
 		//position relative
+		a 
+			position absolute
+			top 0
+			bottom 0
+			right 0
+			left 0
+			display block
+			width 100%
+			height 100%
+			z-index 22
 		&-info
 			position absolute
 			padding 1rem
@@ -192,6 +208,8 @@ textarea
 			text-align center
 			width 100%
 			
+			
+			
 			h2
 				font-size 1.5rem
 				margin 24px 0
@@ -199,6 +217,7 @@ textarea
 				text-transform uppercase
 				line-height 1em
 				position relative
+				background-color rgba(0,0,0,.5)
 				
 				
 				
@@ -206,6 +225,7 @@ textarea
 				font-size 1rem
 				font-weight 300
 				font-style italic
+				background-color rgba(0,0,0,.5)
 
 				
 						
@@ -219,19 +239,19 @@ textarea
 		position absolute
 		left 0
 		right 0
-		bottom 95px
+		bottom 10px
 		z-index 901
 		.owl-dot
 			display inline-block
 			&.active
 				span
-					background-color white
+					background-color celeste
 			span
 				width 10px
 				height 10px
 				margin 5px 7px
 				background transparent
-				border 2px solid white
+				border 2px solid celeste
 				display block
 				border-radius: 30px
 	
@@ -243,7 +263,7 @@ textarea
 		top 50%
 		transform translate(0, -50%)
 		font-family: 'av' !important;
-		color white
+		color celeste
 		font-size 3rem
 		z-index	902
 			
@@ -315,9 +335,11 @@ textarea
 		justify-content space-between
 		border-bottom 1px solid #c3c3c3
 		padding-bottom 3rem
+		padding-top 2rem
 	&-item
 		width 100%
 		font-weight 300
+		margin-bottom 2rem
 		h3 
 			font-weight 400
 			text-transform uppercase

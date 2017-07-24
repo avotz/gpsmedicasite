@@ -17,18 +17,70 @@ get_header(); ?>
 	<section class="banner">
 		
 		
-	  	 
-	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner.png');">
+	  	 <div class="owl-carousel">
+	  	 	
+	  	
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/BUSCAR_MEDICO_O_CLINICA.png');">
 	  	  	
 		  	  		
-		  	  		<div class="item-info">
-		  	  			<p>a signature of excellence!</p>
-		  	  			<h2>GPS Medica</h2>
-		  	  		</div>
+		  	  		<!-- <div class="item-info"> -->
+		  	  			<a href="http://app.gpsmedica.com" target="_blank"></a>
+		  	  		<!-- </div> -->
 		  	  		
 		  	  
 	  	  </div>
-	  	  
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/COMPARTIR_UBCACION_O_RESERVAR_CITA.png');">
+	  	  	
+		  	  		
+		  	  		<!-- <div class="item-info">
+		  	  			<p>a signature of excellence!</p>
+		  	  			<h2>GPS Medica</h2>
+		  	  		</div> -->
+		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
+		  	  		
+		  	  
+	  	  </div>
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/CONSULTAR_AGENDA_DEL_MEDICO.png');">
+	  	  	
+		  	  		
+		  	  		<!-- <div class="item-info">
+		  	  			<p>a signature of excellence!</p>
+		  	  			<h2>GPS Medica</h2>
+		  	  		</div> -->
+		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
+		  	  
+	  	  </div>
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/CONSULTAR_AGENDA_CLINICA.png');">
+	  	  	
+		  	  		
+		  	  	<!-- 	<div class="item-info">
+		  	  			<p>a signature of excellence!</p>
+		  	  			<h2>GPS Medica</h2>
+		  	  		</div> -->
+		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
+		  	  
+	  	  </div>
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/CREAR_PACIENTE_NUEVO.png');">
+	  	  	
+		  	  		
+		  	  		<!-- <div class="item-info">
+		  	  			<p>a signature of excellence!</p>
+		  	  			<h2>GPS Medica</h2>
+		  	  		</div> -->
+		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
+		  	  
+	  	  </div>
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/MI_EXPEDIENTE_PERSONAL.png');">
+	  	  	
+		  	  		
+		  	  		<!-- <div class="item-info">
+		  	  			<p>a signature of excellence!</p>
+		  	  			<h2>GPS Medica</h2>
+		  	  		</div> -->
+		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
+		  	  
+	  	  </div>
+	  	   </div>
 	  	 
 	  	  	  
 	
@@ -40,56 +92,56 @@ get_header(); ?>
 			<div class="features-container">
 				<div class="features-item">
 					<div class="feature-img">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/feature1.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/buscar-medico.png" alt="">
 					</div>
 					<div class="feature-info">
-						<h3>REALTIME BENEFITS</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam repellendus assumenda ex deleniti voluptatibu.</p>
+						<h3>Médico o Clínica</h3>
+						<p>Buscador que te permite encontrar médicos o clínicas cerca de tu posicion o de acuerdo a tus parametros de busqueda</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<div class="feature-img">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/feature2.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/compartir.png" alt="">
 					</div>
 					<div class="feature-info">
-						<h3>REALTIME BENEFITS</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam repellendus assumenda ex deleniti voluptatibu.</p>
+						<h3>Compartir y Reservar</h3>
+						<p>Puesdes compartir la ubicación de un médico o reservar una cita</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<div class="feature-img">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/feature3.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/agenda-medico.png" alt="">
 					</div>
 					<div class="feature-info">
-						<h3>REALTIME BENEFITS</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam repellendus assumenda ex deleniti voluptatibu.</p>
+						<h3>Agenda de Médico</h3>
+						<p>Puedes consultar la agenda del médico para saber cual dia esta disponible para tu atención</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<div class="feature-img">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/feature4.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/agenda-clinica.png" alt="">
 					</div>
 					<div class="feature-info">
-						<h3>REALTIME BENEFITS</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam repellendus assumenda ex deleniti voluptatibu.</p>
+						<h3>Agenda de Clínica</h3>
+						<p>Puedes consulta la agenda de una clínica para saber cual médico te funciona mejor</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<div class="feature-img">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/feature5.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/pacientes.png" alt="">
 					</div>
 					<div class="feature-info">
-						<h3>REALTIME BENEFITS</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam repellendus assumenda ex deleniti voluptatibu.</p>
+						<h3>Pacientes</h3>
+						<p>Puedes tener tantos paciente crear conveniente en tu cuenta.</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<div class="feature-img">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/feature6.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/expediente.png" alt="">
 					</div>
 					<div class="feature-info">
-						<h3>REALTIME BENEFITS</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam repellendus assumenda ex deleniti voluptatibu.</p>
+						<h3>Mi Expediente</h3>
+						<p>Tienes a disposición tu expediente personal para tu propio control</p>
 					</div>
 				</div>
 			</div>
