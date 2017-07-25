@@ -20,7 +20,7 @@ get_header(); ?>
 	  	 <div class="owl-carousel">
 	  	 	
 	  	
-	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/BUSCAR_MEDICO_O_CLINICA.png');">
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner1.png');">
 	  	  	
 		  	  		
 		  	  		<!-- <div class="item-info"> -->
@@ -29,7 +29,7 @@ get_header(); ?>
 		  	  		
 		  	  
 	  	  </div>
-	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/COMPARTIR_UBCACION_O_RESERVAR_CITA.png');">
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner2.png');">
 	  	  	
 		  	  		
 		  	  		<!-- <div class="item-info">
@@ -40,7 +40,7 @@ get_header(); ?>
 		  	  		
 		  	  
 	  	  </div>
-	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/CONSULTAR_AGENDA_DEL_MEDICO.png');">
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner3.png');">
 	  	  	
 		  	  		
 		  	  		<!-- <div class="item-info">
@@ -50,7 +50,7 @@ get_header(); ?>
 		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
 		  	  
 	  	  </div>
-	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/CONSULTAR_AGENDA_CLINICA.png');">
+	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner4.png');">
 	  	  	
 		  	  		
 		  	  	<!-- 	<div class="item-info">
@@ -60,27 +60,8 @@ get_header(); ?>
 		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
 		  	  
 	  	  </div>
-	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/CREAR_PACIENTE_NUEVO.png');">
-	  	  	
-		  	  		
-		  	  		<!-- <div class="item-info">
-		  	  			<p>a signature of excellence!</p>
-		  	  			<h2>GPS Medica</h2>
-		  	  		</div> -->
-		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
-		  	  
-	  	  </div>
-	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/MI_EXPEDIENTE_PERSONAL.png');">
-	  	  	
-		  	  		
-		  	  		<!-- <div class="item-info">
-		  	  			<p>a signature of excellence!</p>
-		  	  			<h2>GPS Medica</h2>
-		  	  		</div> -->
-		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
-		  	  
-	  	  </div>
-	  	   </div>
+	  	  
+	  </div>
 	  	 
 	  	  	  
 	
