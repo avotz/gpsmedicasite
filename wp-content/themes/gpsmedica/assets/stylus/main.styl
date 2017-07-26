@@ -186,23 +186,28 @@ textarea
 		justify-content space-around
 		position absolute
 		z-index 22
-		bottom 4px
+		bottom 0
 		left 0
 		right 0
 		display none
 		&-item 
 			width 200px
-			height 150px
-			margin-bottom 1rem
+			height 170px
 			text-align center
+			overflow hidden
 			&:hover
 				span
 					background-color naranja
+				.banner-functions-item-img
+					transform translate(0, 0%)
+					
 			&-img 
 				background-size cover
 				background-repeat no-repeat
 				background-position center center
 				height 140px
+				transform translate(0, 125%)
+				transition all .5s ease
 			span
 				display block
 				background-color celeste

@@ -788,19 +788,26 @@ textarea {
   justify-content: space-around;
   position: absolute;
   z-index: 22;
-  bottom: 4px;
+  bottom: 0;
   left: 0;
   right: 0;
   display: none;
 }
 .banner-functions-item {
   width: 200px;
-  height: 150px;
-  margin-bottom: 1rem;
+  height: 170px;
   text-align: center;
+  overflow: hidden;
 }
 .banner-functions-item:hover span {
   background-color: #f90;
+}
+.banner-functions-item:hover .banner-functions-item-img {
+  -webkit-transform: translate(0, 0%);
+  -moz-transform: translate(0, 0%);
+  -o-transform: translate(0, 0%);
+  -ms-transform: translate(0, 0%);
+  transform: translate(0, 0%);
 }
 .banner-functions-item-img {
   -webkit-background-size: cover;
@@ -809,6 +816,16 @@ textarea {
   background-repeat: no-repeat;
   background-position: center center;
   height: 140px;
+  -webkit-transform: translate(0, 125%);
+  -moz-transform: translate(0, 125%);
+  -o-transform: translate(0, 125%);
+  -ms-transform: translate(0, 125%);
+  transform: translate(0, 125%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 .banner-functions-item span {
   display: block;
