@@ -767,6 +767,54 @@ textarea {
   position: relative;
   background-color: #fff;
 }
+.banner-functions {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: distribute;
+  -moz-box-pack: distribute;
+  -o-box-pack: distribute;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 22;
+  bottom: 4px;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.banner-functions-item {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.banner-functions-item:hover span {
+  background-color: #f90;
+}
+.banner-functions-item-img {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 140px;
+}
+.banner-functions-item span {
+  display: block;
+  background-color: #3c8dbc;
+  color: #fff;
+}
 .banner .item {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -878,9 +926,17 @@ textarea {
   -ms-filter: none;
   filter: none;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 830px) {
   .banner {
     height: 75vh;
+  }
+  .banner-functions {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
   }
   .banner .item {
     height: 75vh;
@@ -922,6 +978,11 @@ textarea {
   .banner .owl-prev,
   .banner .owl-next {
     display: block;
+  }
+}
+@media screen and (min-width: 1290px) {
+  .banner-functions-item {
+    width: 320px;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -972,6 +1033,9 @@ textarea {
 .features-item h3 {
   font-weight: 400;
   text-transform: uppercase;
+  color: #f90;
+}
+.features-item h3 a {
   color: #f90;
 }
 @media screen and (min-width: 768px) {

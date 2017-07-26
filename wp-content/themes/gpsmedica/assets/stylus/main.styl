@@ -180,6 +180,33 @@ textarea
 	position relative
 	background-color white
 
+	&-functions
+		display flex
+		flex-wrap wrap
+		justify-content space-around
+		position absolute
+		z-index 22
+		bottom 4px
+		left 0
+		right 0
+		display none
+		&-item 
+			width 200px
+			height 150px
+			margin-bottom 1rem
+			text-align center
+			&:hover
+				span
+					background-color naranja
+			&-img 
+				background-size cover
+				background-repeat no-repeat
+				background-position center center
+				height 140px
+			span
+				display block
+				background-color celeste
+				color white
 	.item 
 		background-size cover
 		background-repeat no-repeat
@@ -280,9 +307,11 @@ textarea
 	
 			
 		
-@media screen and (min-width: 768px)
+@media screen and (min-width: 830px)
 	.banner
 		height 75vh
+		&-functions
+			display flex
 		.item 
 			height 75vh
 			&-info
@@ -315,6 +344,11 @@ textarea
 		.owl-prev
 		.owl-next
 			display block
+@media screen and (min-width: 1290px)
+	.banner
+		&-functions
+			&-item 
+				width 320px
 @media screen and (min-width: 1400px)
 	.banner
 		height 61vh
@@ -344,6 +378,8 @@ textarea
 			font-weight 400
 			text-transform uppercase
 			color naranja
+			a 
+				color naranja
 
 @media screen and (min-width: 768px)
 	.features
