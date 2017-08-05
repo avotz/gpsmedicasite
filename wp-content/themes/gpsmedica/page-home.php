@@ -40,43 +40,46 @@ get_header(); ?>
 	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner1.jpg');">
 	  	  	
 		  	  		
-		  	  		<!-- <div class="item-info"> -->
-		  	  			<a href="http://app.gpsmedica.com" target="_blank"></a>
-		  	  		<!-- </div> -->
+		  	  		 <div class="item-info">
+		  	  			<p>a signature of excellence!</p>
+		  	  			<h2>GPS Médica</h2>
+		  	  		</div> 
 		  	  		
 		  	  
 	  	  </div>
+
 	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner2.jpg');">
 	  	  	
 		  	  		
-		  	  		<!-- <div class="item-info">
-		  	  			<p>a signature of excellence!</p>
-		  	  			<h2>GPS Medica</h2>
-		  	  		</div> -->
-		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
 		  	  		
+		  	  		 <div class="item-info">
+		  	  			<p>Ubica el médico o clinica privada que deseas en el lugar de su consulta</p>
+		  	  			<h2>Busca</h2>
+		  	  		</div> 
+		  	  		
+		  	  
+	  	  </div>
+		<div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner4.jpg');">
+	  	  	
+		  	  		 <div class="item-info">
+		  	  			<p>Consulta la agenda del médico y reserva en línea</p>
+		  	  			<h2>Reserva</h2>
+		  	  		</div> 
+		  	  
+		  	  		<!-- <a href="http://app.gpsmedica.com" target="_blank"></a> -->
 		  	  
 	  	  </div>
 	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner3.jpg');">
 	  	  	
+		  	  			<div class="item-info">
+		  	  			<p>Almacena fácil en tu expediente tus datos</p>
+		  	  			<h2>Expediente Clínico</h2>
+		  	  		</div> 
 		  	  		
-		  	  		<!-- <div class="item-info">
-		  	  			<p>a signature of excellence!</p>
-		  	  			<h2>GPS Medica</h2>
-		  	  		</div> -->
-		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
+		  	  		<!-- <a href="http://app.gpsmedica.com" target="_blank"></a> -->
 		  	  
 	  	  </div>
-	  	  <div class="item" style="background-image: url('<?php echo get_template_directory_uri();  ?>/img/banner4.jpg');">
-	  	  	
-		  	  		
-		  	  	<!-- 	<div class="item-info">
-		  	  			<p>a signature of excellence!</p>
-		  	  			<h2>GPS Medica</h2>
-		  	  		</div> -->
-		  	  		<a href="http://app.gpsmedica.com" target="_blank"></a>
-		  	  
-	  	  </div>
+	  	 
 	  	  
 	  </div>
 	  	 
@@ -90,59 +93,59 @@ get_header(); ?>
 			<div class="features-container">
 				<div class="features-item">
 					<a class="feature-img" href="http://app.gpsmedica.com" target=" _blank">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/buscar-medico.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/feature1.png" alt="">
 					</a>
 					<div class="feature-info">
 						<h3><a href="http://app.gpsmedica.com" target=" _blank">Médico o Clínica</a></h3>
-						<p>Buscador que te permite encontrar médicos o clínicas cerca de tu posicion o de acuerdo a tus parametros de busqueda</p>
+						<p>Ubica el médico que deseas en el lugar de su consulta. Busca una clínica privada y descubre que médicos le colaboran</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<a class="feature-img" href="http://app.gpsmedica.com" target=" _blank">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/compartir.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/feature2.png" alt="">
 					</a>
 					<div class="feature-info">
-					    <h3><a href="http://app.gpsmedica.com" target=" _blank">Compartir y Reservar</a></h3>
+					    <h3><a href="http://app.gpsmedica.com" target=" _blank">Reserva tu cita</a></h3>
 						
-						<p>Puesdes compartir la ubicación de un médico o reservar una cita</p>
+						<p>Consulta la agenda del médico y reserva en línea</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<a class="feature-img" href="http://app.gpsmedica.com" target=" _blank">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/agenda-medico.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/feature4.png" alt="">
 					</a>
 					<div class="feature-info">
-					    <h3><a href="http://app.gpsmedica.com" target=" _blank">Agenda de Médico</a></h3>
-						<p>Puedes consultar la agenda del médico para saber cual dia esta disponible para tu atención</p>
+					    <h3><a href="http://app.gpsmedica.com" target=" _blank">Ubicación GPS</a></h3>
+						<p>Descubre cómo llegar a tu médico o clínica deseada</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<a class="feature-img" href="http://app.gpsmedica.com" target=" _blank">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/agenda-clinica.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/feature5.png" alt="">
 					</a>
 					<div class="feature-info">
-					    <h3><a href="http://app.gpsmedica.com" target=" _blank">Agenda de Clínica</a></h3>
+					    <h3><a href="http://app.gpsmedica.com" target=" _blank">Tu Control Personal</a></h3>
 
-						<p>Puedes consulta la agenda de una clínica para saber cual médico te funciona mejor</p>
+						<p>Almacena fácil en tu expediente tus datos personales como Azúcar, Presión y Medicamentos</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<a class="feature-img" href="http://app.gpsmedica.com" target=" _blank">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/pacientes.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/feature7.png" alt="">
 					</a>
 					<div class="feature-info">
-						<h3><a href="http://app.gpsmedica.com" target=" _blank">Pacientes</a></h3>
-						<p>Puedes tener tantos paciente crear conveniente en tu cuenta.</p>
+						<h3><a href="http://app.gpsmedica.com" target=" _blank">Tu Expediente Clínico</a></h3>
+						<p>Creamos un expediente clínico universal de uso exclusivo médico al que podrá acceder otro médico con tu autorización en el momento requerido</p>
 					</div>
 				</div>
 				<div class="features-item">
 					<a class="feature-img" href="http://app.gpsmedica.com" target=" _blank">
-						<img src="<?php echo get_template_directory_uri();  ?>/img/expediente.png" alt="">
+						<img src="<?php echo get_template_directory_uri();  ?>/img/feature6.png" alt="">
 					</a>
 					<div class="feature-info">
-					 	<h3><a href="http://app.gpsmedica.com" target=" _blank">Mi Expediente</a></h3>
+					 	<h3><a href="http://app.gpsmedica.com" target=" _blank">Recibe recordatorios</a></h3>
 						
-						<p>Tienes a disposición tu expediente personal para tu propio control</p>
+						<p>Ya no olvidarás más tus citas importantes. El sistema recordará tu cita automáticamente</p>
 					</div>
 				</div>
 			</div>
@@ -177,7 +180,7 @@ get_header(); ?>
 			<div class="contact-container">
 				<p>Lorem ipsum dolor sit amet?</p>
 				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-				<a href="#" class="btn btn-orange">Contáctenos</a>
+				<a href="#contact-popup" class="btn btn-orange contact-popup-link">Contáctenos</a>
 			</div>
 			
 		</div>

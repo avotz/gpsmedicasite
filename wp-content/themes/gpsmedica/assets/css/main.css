@@ -799,6 +799,9 @@ textarea {
   text-align: center;
   overflow: hidden;
 }
+.banner-functions-item:focus {
+  outline: 0;
+}
 .banner-functions-item:hover span {
   background-color: #f90;
 }
@@ -841,6 +844,17 @@ textarea {
   height: 35vh;
   width: 100%;
 }
+.banner .item:before {
+  content: '';
+  background: rgba(0,0,0,0.1);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
 .banner .item a {
   position: absolute;
   top: 0;
@@ -874,13 +888,13 @@ textarea {
   text-transform: uppercase;
   line-height: 1em;
   position: relative;
-  background-color: rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
 }
 .banner .item-info p {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 500;
   font-style: italic;
-  background-color: rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 .banner img {
   display: block;

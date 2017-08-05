@@ -34,6 +34,13 @@
 		</div>
 	</footer>
 
+	 <div id="contact-popup" class="request-popup white-popup mfp-hide mfp-with-anim">
+		<h3>Formulario de Contacto</h3>
+         <?php  echo do_shortcode('[contact-form-7 id="17" title="Contact form"]') ;?>
+              
+        
+    </div>
+
 <?php wp_footer(); ?>
 
 </body>
