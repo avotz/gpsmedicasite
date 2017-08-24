@@ -41,7 +41,7 @@ get_header(); ?>
 	  	  	
 		  	  		
 		  	  		 <div class="item-info">
-		  	  			<p>a signature of excellence!</p>
+		  	  			
 		  	  			<h2>GPS Médica</h2>
 		  	  		</div> 
 		  	  		
@@ -164,7 +164,7 @@ get_header(); ?>
 			<div class="getapp-container">
 				<div class="getapp-info">
 					<h2>Obtener la aplicación!</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum perspiciatis, id maxime. In commodi fuga hic earum dignissimos est aut distinctio autem eaque quae repellat aperiam expedita tempore, quia. Aspernatur?</p>
+					<p>Muy pronto estará disponible!</p>
 				</div>
 				<div class="getapp-links">
 					<a href="#"><img src="<?php echo get_template_directory_uri();  ?>/img/android.png" alt=""></a>
@@ -178,8 +178,8 @@ get_header(); ?>
 	<section class="contact">
 		<div class="inner">
 			<div class="contact-container">
-				<p>Lorem ipsum dolor sit amet?</p>
-				<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+				<p>Tienes alguna consulta?</p>
+				<h2>No dudes en preguntarnos, estamos a tu disposición.</h2>
 				<a href="#contact-popup" class="btn btn-orange contact-popup-link">Contáctenos</a>
 			</div>
 			
