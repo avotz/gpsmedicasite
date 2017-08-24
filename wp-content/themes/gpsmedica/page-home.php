@@ -153,7 +153,7 @@ get_header(); ?>
 	</section>
 	<section class="video">
 		<div class="inner">
-			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+			<h2>Conoce como funciona.</h2>
 			<div class="vid">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/YTd0mnzkWo8" frameborder="0" allowfullscreen></iframe>
 			</div>
