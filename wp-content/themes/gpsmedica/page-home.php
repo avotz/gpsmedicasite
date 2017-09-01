@@ -155,7 +155,19 @@ get_header(); ?>
 		<div class="inner">
 			<h2>Conoce como funciona.</h2>
 			<div class="vid">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/YTd0mnzkWo8" frameborder="0" allowfullscreen></iframe>
+				
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/FmB2-Ch2e2k?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="vid-list">
+				<div class="vid-list-item">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/KKvne-lD37w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="vid-list-item">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/M-yYh30tJ24?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="vid-list-item">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/zAkkv4RPI4A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 	</section>

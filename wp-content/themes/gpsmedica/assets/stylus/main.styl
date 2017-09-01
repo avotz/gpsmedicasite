@@ -411,8 +411,19 @@ textarea
 .video
 	text-align center
 	.vid
-		border-bottom 1px solid #c3c3c3
-		padding-bottom 4rem
+		
+		&-list
+			display: flex
+			flex-wrap: wrap
+			justify-content: space-between
+			border-bottom 1px solid #c3c3c3
+			padding-bottom 4rem
+			&-item
+				width: 30%
+				height: 150px
+				iframe
+					width 100%
+					height 150px
 	h2
 		font-weight 400
 		color naranja
@@ -421,6 +432,7 @@ textarea
 	iframe
 		width 100%
 		height 250px
+	
 @media screen and (min-width: 768px)
 	.video
 		iframe
