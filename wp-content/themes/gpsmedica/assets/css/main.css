@@ -1100,8 +1100,7 @@ textarea {
   padding-bottom: 4rem;
 }
 .video .vid-list-item {
-  width: 30%;
-  height: 150px;
+  width: 45%;
 }
 .video .vid-list-item iframe {
   width: 100%;
@@ -1120,6 +1119,9 @@ textarea {
 @media screen and (min-width: 768px) {
   .video iframe {
     height: 500px;
+  }
+  .video .vid-list-item {
+    width: 19%;
   }
 }
 .getapp {

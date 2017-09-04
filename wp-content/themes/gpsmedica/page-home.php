@@ -160,14 +160,35 @@ get_header(); ?>
 			</div>
 			<div class="vid-list">
 				<div class="vid-list-item">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/KKvne-lD37w?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=KKvne-lD37w"><img src="<?php echo get_template_directory_uri();  ?>/img/v1.jpg" alt="v1"></a>
+					Expediente Clínico
+					
 				</div>
 				<div class="vid-list-item">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/M-yYh30tJ24?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=M-yYh30tJ24"><img src="<?php echo get_template_directory_uri();  ?>/img/v2.jpg" alt="v2"></a>
+					Médicos
+				
 				</div>
 				<div class="vid-list-item">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/zAkkv4RPI4A?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				<a class="popup-youtube" href="http://www.youtube.com/watch?v=zAkkv4RPI4A"><img src="<?php echo get_template_directory_uri();  ?>/img/v3.jpg" alt="v3"></a>
+					Médicos
+					
+						
 				</div>
+				<div class="vid-list-item">
+				<a class="popup-youtube" href="http://www.youtube.com/watch?v=_5Lp6DBSERE"><img src="<?php echo get_template_directory_uri();  ?>/img/v4.jpg" alt="v4"></a>
+					Que es GPS Médica
+					
+					
+				</div>
+				<div class="vid-list-item">
+				<a class="popup-youtube" href="http://www.youtube.com/watch?v=mnvOdzeW2p4"><img src="<?php echo get_template_directory_uri();  ?>/img/v5.jpg" alt="v5"></a>
+					Tutorial Médico
+					
+				
+
+				</div>
+				
 			</div>
 		</div>
 	</section>
