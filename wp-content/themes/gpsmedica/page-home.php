@@ -156,34 +156,35 @@ get_header(); ?>
 			<h2>Conoce como funciona.</h2>
 			<div class="vid">
 				
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/FmB2-Ch2e2k?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/DrYMxb-7WQI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="vid-list">
 				<div class="vid-list-item">
-					<a class="popup-youtube" href="http://www.youtube.com/watch?v=KKvne-lD37w"><img src="<?php echo get_template_directory_uri();  ?>/img/v1.jpg" alt="v1"></a>
-					Expediente Clínico
-					
-				</div>
-				<div class="vid-list-item">
-					<a class="popup-youtube" href="http://www.youtube.com/watch?v=M-yYh30tJ24"><img src="<?php echo get_template_directory_uri();  ?>/img/v2.jpg" alt="v2"></a>
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=SO9nmhEc8ng"><img src="<?php echo get_template_directory_uri();  ?>/img/v3.jpg" alt="v3"></a>
 					Médicos
 				
 				</div>
 				<div class="vid-list-item">
-				<a class="popup-youtube" href="http://www.youtube.com/watch?v=zAkkv4RPI4A"><img src="<?php echo get_template_directory_uri();  ?>/img/v3.jpg" alt="v3"></a>
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=ewOtCKA-DMY"><img src="<?php echo get_template_directory_uri();  ?>/img/v2.jpg" alt="v2"></a>
 					Médicos
+					
+				</div>
+				
+				<div class="vid-list-item">
+				<a class="popup-youtube" href="http://www.youtube.com/watch?v=cMnx1kMgU_A"><img src="<?php echo get_template_directory_uri();  ?>/img/v4.jpg" alt="v4"></a>
+				 Que es GPS Médica
 					
 						
 				</div>
 				<div class="vid-list-item">
-				<a class="popup-youtube" href="http://www.youtube.com/watch?v=_5Lp6DBSERE"><img src="<?php echo get_template_directory_uri();  ?>/img/v4.jpg" alt="v4"></a>
-					Que es GPS Médica
+				<a class="popup-youtube" href="http://www.youtube.com/watch?v=ih3b8a5fs7E"><img src="<?php echo get_template_directory_uri();  ?>/img/v1.jpg" alt="v1"></a>
+					Expediente Clínico
 					
 					
 				</div>
 				<div class="vid-list-item">
-				<a class="popup-youtube" href="http://www.youtube.com/watch?v=mnvOdzeW2p4"><img src="<?php echo get_template_directory_uri();  ?>/img/v5.jpg" alt="v5"></a>
-					Tutorial Médico
+				<a class="popup-youtube" href="http://www.youtube.com/watch?v=35VjYfYlUBs"><img src="<?php echo get_template_directory_uri();  ?>/img/v5.jpg" alt="v5"></a>
+					Clínicas
 					
 				
 
