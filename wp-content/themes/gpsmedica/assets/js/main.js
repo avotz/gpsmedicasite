@@ -170,7 +170,7 @@
       /*singleItem:true*/
   });
 
-   $('.contact-popup-link, #menu-item-9 a').magnificPopup({
+   $('.contact-popup-link, #menu-item-9 a, #menu-item-13 a').magnificPopup({
         type: 'inline',
         midClick: true,
         removalDelay: 500, //delay removal by X to allow out-animation

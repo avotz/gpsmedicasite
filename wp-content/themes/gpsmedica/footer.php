@@ -25,7 +25,7 @@
 		          ); 
 		          ?>
 		          <div class="footer-address">
-		          	 <p>Guanacaste, CR   |   info@gpsmedica.com   |   919.225.3825</p>
+		          	 <p>Guanacaste, CR   |   info@gpsmedica.com</p>
 		          </div>
 		          <div class="copy">
 		          	<span>© Copyright 2017 GPS Medica.</span>
