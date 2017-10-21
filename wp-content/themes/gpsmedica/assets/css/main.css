@@ -1077,6 +1077,8 @@ textarea {
 }
 .video {
   text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
 }
 .video .vid-list {
   display: -webkit-box;
