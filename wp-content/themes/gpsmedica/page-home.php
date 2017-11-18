@@ -87,7 +87,7 @@ get_header(); ?>
 	
 		
 	</section>
-	<section class="video">
+	<section id="videos" class="video">
 		<div class="inner">
 			<h2>Conoce como funciona.</h2>
 			<div class="vid">
