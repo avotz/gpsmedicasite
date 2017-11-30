@@ -10,6 +10,19 @@
             menu.toggle();
            
         });
+
+    menu.find(".menu-item-has-children").hoverIntent({
+        over: function () {
+
+            $(this).find(">.sub-menu").slideDown(200);
+        },
+        out: function () {
+
+            $(this).find(">.sub-menu").slideUp(200);
+        },
+        timeout: 200
+
+    });
       
       
        $('select').select2();
