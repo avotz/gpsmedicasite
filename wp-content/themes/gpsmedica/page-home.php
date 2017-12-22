@@ -127,7 +127,7 @@ get_header(); ?>
 						
 				</div>
 				<div class="vid-list-item">
-				<a class="popup-youtube" href="https://www.youtube.com/watch?v=4pSm-H3qMfc"><img src="<?php echo get_template_directory_uri(); ?>/img/v4.jpg" alt="v4"></a>
+				<a class="popup-youtube" href="https://www.youtube.com/watch?v=4pSm-H3qMfc"><img src="<?php echo get_template_directory_uri(); ?>/img/v6.jpg" alt="v6"></a>
 				  Aportes a las Clínicas
 					
 						
