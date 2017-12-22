@@ -1115,6 +1115,7 @@ textarea {
 }
 .video .vid-list-item {
   width: 45%;
+  margin-bottom: 1rem;
 }
 .video .vid-list-item iframe {
   width: 100%;
