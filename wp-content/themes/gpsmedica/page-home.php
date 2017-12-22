@@ -91,38 +91,44 @@ get_header(); ?>
 		<div class="inner">
 			<h2>Conoce como funciona.</h2>
 			<div class="vid">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/35VjYfYlUBs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>	
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ukLkkLNgnX0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>	
 			
 			</div>
 			<div class="vid-list">
 				<div class="vid-list-item">
-					<a class="popup-youtube" href="http://www.youtube.com/watch?v=SO9nmhEc8ng"><img src="<?php echo get_template_directory_uri();  ?>/img/v3.jpg" alt="v3"></a>
-					Que podemos hacer por el médico parte I
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=5qzKL13MkHw"><img src="<?php echo get_template_directory_uri();  ?>/img/v3.jpg" alt="v3"></a>
+					Introducción Gps Médica para médicos
 				
 				</div>
 				<div class="vid-list-item">
-					<a class="popup-youtube" href="http://www.youtube.com/watch?v=ewOtCKA-DMY"><img src="<?php echo get_template_directory_uri();  ?>/img/v2.jpg" alt="v2"></a>
-					Que podemos hacer por el médico parte II
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=OQaiHr89MTk"><img src="<?php echo get_template_directory_uri();  ?>/img/v2.jpg" alt="v2"></a>
+					Aportes al médico Parte I
 					
 				</div>
 				
 				<div class="vid-list-item">
-				<a class="popup-youtube" href="http://www.youtube.com/watch?v=ih3b8a5fs7E"><img src="<?php echo get_template_directory_uri();  ?>/img/v1.jpg" alt="v1"></a>
+				<a class="popup-youtube" href="https://www.youtube.com/watch?v=gwkATarmujA"><img src="<?php echo get_template_directory_uri();  ?>/img/v1.jpg" alt="v1"></a>
+					Aportes al médico Parte II
+					
+					
+				</div>
+				
+				<div class="vid-list-item">
+				<a class="popup-youtube" href="https://www.youtube.com/watch?v=isvk_EyxlbU"><img src="<?php echo get_template_directory_uri();  ?>/img/v5.jpg" alt="v5"></a>
 					Expediente Clínico
-					
-					
-				</div>
-				
-				<div class="vid-list-item">
-				<a class="popup-youtube" href="http://www.youtube.com/watch?v=DrYMxb-7WQI"><img src="<?php echo get_template_directory_uri();  ?>/img/v5.jpg" alt="v5"></a>
-					Tutorial Médico
 					
 				
 
 				</div>
 				<div class="vid-list-item">
-				<a class="popup-youtube" href="http://www.youtube.com/watch?v=cMnx1kMgU_A"><img src="<?php echo get_template_directory_uri();  ?>/img/v4.jpg" alt="v4"></a>
-				 Que es GPS Médica
+				<a class="popup-youtube" href="https://www.youtube.com/watch?v=1OeP0Awo0D4"><img src="<?php echo get_template_directory_uri();  ?>/img/v4.jpg" alt="v4"></a>
+				  Cómo recibir citas en línea en tu consultorio o clínica privada
+					
+						
+				</div>
+				<div class="vid-list-item">
+				<a class="popup-youtube" href="https://www.youtube.com/watch?v=4pSm-H3qMfc"><img src="<?php echo get_template_directory_uri(); ?>/img/v4.jpg" alt="v4"></a>
+				  Aportes a las Clínicas
 					
 						
 				</div>
