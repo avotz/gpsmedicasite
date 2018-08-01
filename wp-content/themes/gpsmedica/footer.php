@@ -28,7 +28,7 @@
 		          	 <p>Guanacaste, CR   |   info@gpsmedica.com</p>
 		          </div>
 		          <div class="copy">
-		          	<span>© Copyright 2017 GPS Medica.</span>
+		          	<span>Copyright ©2018 GPS Médica.</span>
 		          </div>
 			</div>
 		</div>

@@ -652,11 +652,11 @@ textarea {
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  background-color: #3c8dbc;
+  background-color: #13afa4;
 }
 .btn:hover,
 .wpcf7-submit:hover {
-  background-color: #f90;
+  background-color: #66bb9a;
   color: #fff;
 }
 .wpcf7-submit {
@@ -676,7 +676,7 @@ textarea {
 }
 .header {
   position: relative;
-  background-color: #3c8dbc;
+  background-color: #13afa4;
   padding: 0 20px;
   height: 98px;
   width: 100%;
@@ -686,7 +686,7 @@ textarea {
 }
 .header-logo {
   display: inline-block;
-  width: 100px;
+  width: 80px;
 }
 .header-menu {
   display: none;
@@ -707,7 +707,7 @@ textarea {
   text-transform: uppercase;
 }
 .header-menu #menu-item-10 a {
-  border: 2px solid #fff;
+  border: 2px solid #f0ead2;
 }
 .header-btn-menu {
   position: absolute;
@@ -764,10 +764,10 @@ textarea {
   .header-menu .sub-menu {
     display: none;
     position: absolute;
-    background-color: #0e395b;
+    background-color: #66bb9a;
   }
   .header-menu .sub-menu li {
-    border-bottom: 1px solid #c3c3c3;
+    border-bottom: 1px solid #f0ead2;
     width: 100%;
   }
   .header-menu .sub-menu a {
@@ -816,7 +816,8 @@ textarea {
   outline: 0;
 }
 .banner-functions-item:hover span {
-  background-color: #f90;
+  background-color: #f0ead2;
+  color: #13afa4;
 }
 .banner-functions-item:hover .banner-functions-item-img {
   -webkit-transform: translate(0, 0%);
@@ -845,7 +846,7 @@ textarea {
 }
 .banner-functions-item span {
   display: block;
-  background-color: #3c8dbc;
+  background-color: #66bb9a;
   color: #fff;
 }
 .banner .item {
@@ -926,14 +927,14 @@ textarea {
   display: inline-block;
 }
 .banner .owl-dots .owl-dot.active span {
-  background-color: #3c8dbc;
+  background-color: #66bb9a;
 }
 .banner .owl-dots .owl-dot span {
   width: 10px;
   height: 10px;
   margin: 5px 7px;
   background: transparent;
-  border: 2px solid #3c8dbc;
+  border: 2px solid #66bb9a;
   display: block;
   border-radius: 30px;
 }
@@ -948,7 +949,7 @@ textarea {
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   font-family: 'av' !important;
-  color: #3c8dbc;
+  color: #fff;
   font-size: 3rem;
   z-index: 902;
 }
@@ -1076,10 +1077,10 @@ textarea {
 .features-item h3 {
   font-weight: 400;
   text-transform: uppercase;
-  color: #f90;
+  color: #13afa4;
 }
 .features-item h3 a {
-  color: #f90;
+  color: #13afa4;
 }
 @media screen and (min-width: 768px) {
   .features-item {
@@ -1123,7 +1124,7 @@ textarea {
 }
 .video h2 {
   font-weight: 400;
-  color: #f90;
+  color: #13afa4;
   text-transform: uppercase;
   font-size: 1.3rem;
 }
@@ -1188,7 +1189,7 @@ textarea {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #ccc;
+  background-color: #f0ead2;
 }
 .social a {
   display: inline-block;
@@ -1201,7 +1202,7 @@ textarea {
   margin: 0 0.2rem;
 }
 .social a:hover {
-  background-color: #00d5d5;
+  background-color: #13afa4;
   color: #fff;
 }
 .social .facebook {
@@ -1214,11 +1215,11 @@ textarea {
   padding: 0.5rem 0.5rem;
 }
 .footer {
-  background-color: #424242;
+  background-color: #66bb9a;
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 4rem;
-  color: #777;
+  color: #fff;
 }
 .footer-menu {
   padding-bottom: 2rem;

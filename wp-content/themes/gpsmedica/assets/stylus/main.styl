@@ -5,12 +5,14 @@
 
 
 verde = #92BF4F
-turquesa = #00d5d5
+turquesa = #13AFA4
+turquesa2 = #66BB9A
 azul = #0000e1
 celeste = #3c8dbc
 gris = #777777
 gris2 = #a1a0a0
 naranja = #ff9900
+secondary = #F0EAD2
 
 *
 	box-sizing border-box
@@ -88,10 +90,10 @@ textarea
 	display inline-block
 	color white
 	transition all .5s ease
-	background-color celeste
+	background-color turquesa
 	
 	&:hover
-		background-color naranja
+		background-color turquesa2
 		color white
 
 .wpcf7-submit
@@ -109,7 +111,7 @@ textarea
 
 .header
 	position: relative;
-	background-color: celeste
+	background-color: turquesa
 	padding: 0 20px;
 	height: 98px;
 	width: 100%;
@@ -118,7 +120,7 @@ textarea
 	z-index: 999;
 	&-logo 
 		display inline-block
-		width 100px
+		width 80px
 	&-menu 
 		display: none;
 		position: absolute;
@@ -136,8 +138,8 @@ textarea
 			text-transform uppercase 
 		#menu-item-10
 			a 
-				//background-color #367fa9
-				border 2px solid white
+				//background-color turquesa2
+				border 2px solid secondary
 	&-btn-menu
 		position absolute
 		right 1rem
@@ -176,9 +178,9 @@ textarea
 			.sub-menu
 				display: none
 				position: absolute
-				background-color: #0E395B
+				background-color: turquesa2
 				li
-					border-bottom: 1px solid #c3c3c3
+					border-bottom: 1px solid secondary
 					width: 100%
 				a
 					display: block
@@ -213,7 +215,8 @@ textarea
 			&:hover
 
 				span
-					background-color naranja
+					background-color secondary
+					color turquesa
 				.banner-functions-item-img
 					transform translate(0, 0%)
 					
@@ -226,7 +229,7 @@ textarea
 				transition all .5s ease
 			span
 				display block
-				background-color celeste
+				background-color turquesa2
 				color white
 	.item 
 		background-size cover
@@ -306,13 +309,13 @@ textarea
 			display inline-block
 			&.active
 				span
-					background-color celeste
+					background-color turquesa2
 			span
 				width 10px
 				height 10px
 				margin 5px 7px
 				background transparent
-				border 2px solid celeste
+				border 2px solid turquesa2
 				display block
 				border-radius: 30px
 	
@@ -324,7 +327,7 @@ textarea
 		top 50%
 		transform translate(0, -50%)
 		font-family: 'av' !important;
-		color celeste
+		color white
 		font-size 3rem
 		z-index	902
 			
@@ -411,9 +414,9 @@ textarea
 		h3 
 			font-weight 400
 			text-transform uppercase
-			color naranja
+			color turquesa
 			a 
-				color naranja
+				color turquesa
 
 @media screen and (min-width: 768px)
 	.features
@@ -442,7 +445,7 @@ textarea
 					height 150px
 	h2
 		font-weight 400
-		color naranja
+		color turquesa
 		text-transform uppercase
 		font-size 1.3rem
 	iframe
@@ -491,7 +494,7 @@ textarea
 	text-align center
 	padding-top 2rem
 	padding-bottom 2rem
-	background-color #ccc
+	background-color secondary//#ccc
 	a 
 		display inline-block
 		font-size 1.2rem
@@ -514,11 +517,11 @@ textarea
 		padding .5rem .5rem	
 
 .footer
-	background-color #424242
+	background-color turquesa2
 	text-align center
 	padding-top 3rem
 	padding-bottom 4rem
-	color gris
+	color white
 	&-menu
 		padding-bottom 2rem 
 		li 

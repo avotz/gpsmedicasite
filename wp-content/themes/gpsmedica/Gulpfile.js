@@ -14,7 +14,7 @@ var gulp        = require('gulp'),
           /*server: {
             baseDir: "./"
           }*/
-          proxy: "gpsmedicasite.dev"
+          proxy: "gpsmedicasite.test"
       });
       
   });
