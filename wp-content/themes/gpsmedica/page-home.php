@@ -42,7 +42,8 @@ get_header(); ?>
 		  	  		
 		  	  		 <div class="item-info">
 		  	  			
-		  	  			<h2>GPS Médica</h2>
+							<h2>GPS Médica</h2>
+							<p>LOCALIZA TU SALUD</p>
 		  	  		</div> 
 		  	  		
 		  	  
