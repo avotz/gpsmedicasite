@@ -92,29 +92,29 @@ get_header(); ?>
 		<div class="inner">
 			<h2>Conoce como funciona.</h2>
 			<div class="vid">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/ukLkkLNgnX0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>	
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/06yTUkdYinE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>	
 			
 			</div>
 			<div class="vid-list">
 				<div class="vid-list-item">
-					<a class="popup-youtube" href="https://www.youtube.com/watch?v=5qzKL13MkHw"><img src="<?php echo get_template_directory_uri();  ?>/img/v3.jpg" alt="v3"></a>
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=jKfZi5AQUeI"><img src="<?php echo get_template_directory_uri();  ?>/img/v3.jpg" alt="v3"></a>
 					Introducción Gps Médica para médicos
 				
 				</div>
 				<div class="vid-list-item">
-					<a class="popup-youtube" href="https://www.youtube.com/watch?v=OQaiHr89MTk"><img src="<?php echo get_template_directory_uri();  ?>/img/v2.jpg" alt="v2"></a>
-					Aportes al médico Parte I
+					<a class="popup-youtube" href="https://www.youtube.com/watch?v=pvOETG56OLM"><img src="<?php echo get_template_directory_uri();  ?>/img/v2.jpg" alt="v2"></a>
+					Historial de Medicamentos
 					
 				</div>
 				
 				<div class="vid-list-item">
-				<a class="popup-youtube" href="https://www.youtube.com/watch?v=gwkATarmujA"><img src="<?php echo get_template_directory_uri();  ?>/img/v1.jpg" alt="v1"></a>
-					Aportes al médico Parte II
+				<a class="popup-youtube" href="https://www.youtube.com/watch?v=9rx4etbNEzs"><img src="<?php echo get_template_directory_uri();  ?>/img/v1.jpg" alt="v1"></a>
+					GPS Médica Farmacias
 					
 					
 				</div>
 				
-				<div class="vid-list-item">
+				<!-- <div class="vid-list-item">
 				<a class="popup-youtube" href="https://www.youtube.com/watch?v=isvk_EyxlbU"><img src="<?php echo get_template_directory_uri();  ?>/img/v5.jpg" alt="v5"></a>
 					Expediente Clínico
 					
@@ -132,7 +132,7 @@ get_header(); ?>
 				  Aportes a las Clínicas
 					
 						
-				</div>
+				</div> -->
 				
 			</div>
 		</div>
@@ -210,7 +210,7 @@ get_header(); ?>
 					<p>Muy pronto estará disponible!</p>
 				</div>
 				<div class="getapp-links">
-					<a href="#"><img src="<?php echo get_template_directory_uri();  ?>/img/android.png" alt=""></a>
+					<a href="https://play.google.com/store/apps/details?id=com.avotz.gpsmedica"><img src="<?php echo get_template_directory_uri();  ?>/img/android.png" alt="GPS Médica"></a>
 					<a href="#"><img src="<?php echo get_template_directory_uri();  ?>/img/ios.png" alt=""></a>
 				</div>
 				
