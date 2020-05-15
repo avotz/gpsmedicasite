@@ -210,7 +210,7 @@ get_header(); ?>
 					<p>Muy pronto estará disponible!</p>
 				</div>
 				<div class="getapp-links">
-					<a href="https://play.google.com/store/apps/details?id=com.avotz.gpsmedica"><img src="<?php echo get_template_directory_uri();  ?>/img/android.png" alt="GPS Médica"></a>
+					<a href="https://play.google.com/store/apps/details?id=com.avotz.gpsmedica" target="_blank"><img src="<?php echo get_template_directory_uri();  ?>/img/android.png" alt="GPS Médica"></a>
 					<a href="#"><img src="<?php echo get_template_directory_uri();  ?>/img/ios.png" alt=""></a>
 				</div>
 				
