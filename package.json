@@ -13,6 +13,7 @@
         "@glidejs/glide": "^3.4.1",
         "@tailwindcss/typography": "^0.2.0",
         "@tailwindcss/ui": "^0.6.2",
+        "alpinejs": "^2.7.0",
         "cross-env": "^7.0",
         "dynamics.js": "^1.1.5",
         "laravel-mix": "^5.0.6",

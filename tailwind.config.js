@@ -25,6 +25,7 @@ module.exports = {
             },
             inset:{
                 '1/2': '50%',
+                '90': '90px'
             }
         },
         typography: (theme) =>({

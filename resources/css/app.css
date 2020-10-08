@@ -6,7 +6,9 @@
 @import "@glidejs/glide/dist/css/glide.core.css";
 @import "contactForm7.css";
 
-
+.mobile-navigation .menu-item{
+    @apply leading-10;
+}
 .menu-item.featured a{
     @apply border-primary;
     

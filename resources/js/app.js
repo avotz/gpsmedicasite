@@ -1,3 +1,4 @@
+import 'alpinejs';
 import Glide from '@glidejs/glide'
 import './simpleModal.js';
 
