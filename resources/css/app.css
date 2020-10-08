@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@import "@glidejs/glide/dist/css/glide.core.css";
+@import "contactForm7.css";
+
+
+#menu-item-10 a{
+    @apply border-primary;
+    
+}
+.menu-item a{
+    @apply text-gray-900;
+    @apply border;
+    @apply border-transparent;
+    @apply px-4;
+    @apply py-2;
+}
+.menu-item a:hover{
+    @apply text-primary;
+}
+#footer-menu .menu-item a{
+    @apply text-white;
+}
+#footer-menu .menu-item a:hover{
+    @apply underline;
+}
+
+.glide__bullet--active{
+    @apply opacity-100;
+}
