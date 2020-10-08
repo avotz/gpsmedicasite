@@ -7,7 +7,7 @@
 @import "contactForm7.css";
 
 
-#menu-item-10 a{
+.menu-item.featured a{
     @apply border-primary;
     
 }
