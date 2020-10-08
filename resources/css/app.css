@@ -9,6 +9,11 @@
 .mobile-navigation .menu-item{
     @apply leading-10;
 }
+.mobile-navigation .menu-item.featured a{
+    @apply border-transparent;
+    @apply text-primary;
+    
+}
 .menu-item.featured a{
     @apply border-primary;
     

@@ -41,7 +41,7 @@
 				?>
 				
 			</nav><!-- #site-navigation -->
-			<nav class="mobile-navigation absolute bg-white left-0 right-0 top-90 z-10 w-full p-4 " :class="{ 'hidden' : !showMenu }" @click.away="showMenu = false">
+			<nav class="mobile-navigation sm:hidden absolute bg-white left-0 right-0 top-90 z-10 w-full p-4 " :class="{ 'hidden' : !showMenu }" @click.away="showMenu = false">
 				<?php
 				wp_nav_menu(
 					array(
@@ -54,7 +54,7 @@
 				?>
 				
 			</nav><!-- #mobile-navigation -->
-			<button @click="showMenu = !showMenu" class="text-primary"><svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
+			<button @click="showMenu = !showMenu" class="text-primary sm:hidden"><svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg></button>
 		</div>
 		
 	</header><!-- #masthead -->
