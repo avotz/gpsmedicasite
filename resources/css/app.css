@@ -9,25 +9,43 @@
 .mobile-navigation .menu-item{
     @apply leading-10;
 }
+.mobile-navigation .menu-item a{
+    @apply py-2;
+}
 .mobile-navigation .menu-item.featured a{
     @apply border-transparent;
     @apply text-primary;
     
 }
-.menu-item.featured a{
-    @apply border-primary;
+.menu-item.featured a:after{
+    @apply opacity-100;
     
 }
 .menu-item a{
     @apply text-gray-900;
-    @apply border;
-    @apply border-transparent;
     @apply px-4;
-    @apply py-2;
+    @apply py-7;
+    @apply relative;
+    @apply block;
+}
+.menu-item a:after{
+    content: '';
+    @apply absolute;
+    @apply w-full;
+    @apply h-1;
+    @apply bg-primary;
+    @apply bottom-0;
+    @apply left-0;
+    @apply opacity-0;
 }
 .menu-item a:hover{
     @apply text-primary;
 }
+.menu-item a:hover:after{
+    @apply opacity-100;
+
+}
+
 #footer-menu .menu-item a{
     @apply text-white;
 }
