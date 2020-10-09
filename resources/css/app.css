@@ -37,6 +37,9 @@
     @apply bottom-0;
     @apply left-0;
     @apply opacity-0;
+    @apply transition;
+    @apply duration-500;
+    @apply ease-in-out;
 }
 .menu-item a:hover{
     @apply text-primary;
