@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<header class=" px-4 py-2 sm:py-0 items-center shadow relative border-t-4 border-primary2 bg-red-500" x-data="{ showMenu: false }">
+	<header class=" px-4 py-2 sm:py-0 items-center shadow relative border-t-4 border-primary2" x-data="{ showMenu: false }">
 		<div class="flex justify-between items-center container mx-auto">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" class="w-16">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="GPS Médica">
