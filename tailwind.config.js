@@ -1,10 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    future: {
-        removeDeprecatedGapUtilities: true,
-        purgeLayersByDefault: true,
-      },
     purge: [
         './**/*.php',
     ],
@@ -29,7 +25,7 @@ module.exports = {
             }
         },
         typography: (theme) =>({
-            default: {
+            DEFAULT: {
               css: {
                 a: {
                   color: theme('colors.primary'),
@@ -47,7 +43,7 @@ module.exports = {
     },
 
     plugins: [
-        require('@tailwindcss/ui'),
+        require('@tailwindcss/forms'),
         require('@tailwindcss/typography'),
     ],
 };
