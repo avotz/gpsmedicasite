@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main container mx-auto max-w-screen-lg px-4 py-8 prose ">
+	<main id="primary" class="site-main container mx-auto max-w-screen-lg px-4 py-8 prose prose-a:text-primary prose-a:hover:text-primary2">
 
 		<?php
 		while ( have_posts() ) :

@@ -1,8 +1,22 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    purge: [
-        './**/*.php',
+    content: [
+        './404.php',
+        './archive-product.php',
+        './archive.php',
+        './comments.php',
+        './footer.php',
+        './functions.php',
+        './header.php',
+        './index.php',
+        './page-home.php',
+        './page.php',
+        './search.php',
+        './sidebar.php',
+        './single.php',
+        './inc/**/*.php',
+        './template-parts/**/*.php',
     ],
 
     theme: {
@@ -24,24 +38,7 @@ module.exports = {
                 '90': '90px'
             }
         },
-        typography: (theme) =>({
-            DEFAULT: {
-              css: {
-                a: {
-                  color: theme('colors.primary'),
-                  '&:hover': {
-                    color: theme('colors.primary2'),
-                  },
-                },
-              },
-            },
-          }),
     },
-
-    variants: {
-        opacity: ['responsive', 'hover', 'focus', 'disabled'],
-    },
-
     plugins: [
         require('@tailwindcss/forms'),
         require('@tailwindcss/typography'),
