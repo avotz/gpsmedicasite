@@ -31,8 +31,8 @@
 						)
 					);
 				?>
-				<div class="mb-4">Guanacaste, CR. info@gpsmedica.com</div>
-				<div class="">Copyright &copy; 2020 GPS Médica</div>
+				<div class="mb-4">Guanacaste, CR. info@cittacr.com</div>
+				<div class="">Copyright &copy; 2023 Citta</div>
 			</div><!-- .site-info -->
 		</div>
 	</footer><!-- #colophon -->

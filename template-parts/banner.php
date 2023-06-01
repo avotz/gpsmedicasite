@@ -19,7 +19,7 @@
     <?php foreach($slides as $slide) : ?>
         <li class="glide__slide bg-primary bg-cover bg-no-repeat h-full flex flex-col items-center justify-center text-center px-4" style="background-image:url(<?php echo get_template_directory_uri(); ?>/img/<?= $slide['img'] ?>")">
 		  <h4 class="text-xl md:text-2xl text-gray-900"><?= $slide['subtitle'] ?></h4>
-		  <h3 class="text-4xl md:text-6xl font-bold text-primary2"><?= $slide['title'] ?></h3>
+		  <h3 class="text-4xl md:text-6xl font-bold text-primary"><?= $slide['title'] ?></h3>
       </li>
       <?php endforeach ?>
 	</ul>

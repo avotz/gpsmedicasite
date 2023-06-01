@@ -22,7 +22,7 @@
     
 }
 .menu-item a{
-    @apply text-gray-900;
+    @apply text-white;
     @apply px-4;
     @apply py-7;
     @apply relative;
@@ -42,7 +42,7 @@
     @apply ease-in-out;
 }
 .menu-item a:hover{
-    @apply text-primary;
+    @apply text-gray-200;
 }
 .menu-item a:hover:after{
     @apply opacity-100;
