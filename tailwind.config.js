@@ -25,9 +25,9 @@ module.exports = {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
             colors:{
-                primary2: '#65BB9A',
-                primary: '#14B0A5',
-                secondary: '#F0EAD2',
+                primary2: '#d3d1ef',
+                primary: '#009CDE',
+                secondary: '#0163aa',
                 
             },
             height: {
