@@ -103,6 +103,22 @@ get_template_part('template-parts/banner');
 <div class="py-12 bg-white " >
 	<div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 ">
 		<div class="lg:text-center">
+			<p class="text-base leading-6 text-primary font-semibold tracking-wide uppercase">Aplicacón:</p>
+			<h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-12">
+				Descarga la app y lleva el control de tu salud
+			</h3>
+			
+		</div>
+
+		<div class="mt-10 text-center flex justify-center gap-2">
+			<a href="https://play.google.com/store/apps/details?id=com.doctorbluecr.app" target="_blank" class="w-36 block"><img src="<?php echo get_template_directory_uri(); ?>/img/GetItOnGooglePlay_Badge_Web_color_Spanish.png" alt="Google Play" class="w-full h-full" /></a>
+			<a href="https://apps.apple.com/app/doctor-blue/id6504412792" target="_blank" class="w-36 block"><img src="<?php echo get_template_directory_uri(); ?>/img/Download_on_the_App_Store_Badge_ES_RGB_blk_100217.svg" alt="App Store" class="w-full h-full" /></a>
+		</div>
+	</div>
+</div>
+<div class="py-12 bg-white " >
+	<div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 ">
+		<div class="lg:text-center">
 			<p class="text-base leading-6 text-primary font-semibold tracking-wide uppercase">¿Tienes una consulta?</p>
 			<h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-12">
 				No dudes en preguntarnos, estamos a tu disposición
